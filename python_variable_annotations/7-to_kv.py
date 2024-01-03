@@ -7,6 +7,6 @@ element is the square of the int/float v"""
 from typing import Tuple
 
 
-def to_kv(k: str, v: int | float) -> Tuple[str, float]:
+def to_kv(k: str, v: int or float) -> Tuple[str, float]:
     """returns a tuple"""
     return (k, v * v)
