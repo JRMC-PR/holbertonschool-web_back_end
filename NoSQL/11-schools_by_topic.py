@@ -1,4 +1,4 @@
-#!/urs/bin/env python3
+#!/usr/bin/env python3
 """Return the list of schools by topic"""
 import pymongo
 
