@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""task 1 pagination """
 import csv
 import math
 from typing import List
@@ -7,6 +8,7 @@ from typing import List
 def index_range(page: int, page_size: int) -> tuple:
     """Return a tuple with the start and end indexes"""
     return ((page - 1) * page_size, page * page_size)
+
 
 class Server:
     """Server class to paginate a database of popular baby names.
