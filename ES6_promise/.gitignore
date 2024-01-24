@@ -141,18 +141,4 @@ dist
 # SvelteKit build / generate output
 .svelte-kit
 
-# Ignore package.json
-package.json
-package-lock.json
-
-# Ignore eslint files and directories
-.eslintrc.js
-.eslintignore
-
-# Ignore babel files and directories
-babel.config.js
-
-# Ignore utils directory
-utils/
-
 # End of https://www.toptal.com/developers/gitignore/api/node
