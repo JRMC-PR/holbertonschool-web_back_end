@@ -152,6 +152,6 @@ package.json
 babel.config.js
 
 # Ignore utils directory
-utils/
+utils.js
 
 # End of https://www.toptal.com/developers/gitignore/api/node
